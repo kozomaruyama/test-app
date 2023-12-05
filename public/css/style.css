@@ -1,0 +1,305 @@
+/* 共通構造　*/
+body{
+    background-color: #eee; 
+}
+
+.container{
+    width: 1480px;
+}
+
+.main_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column3{
+    width:30%;
+    padding:6px;
+    background-color: #fff;
+}
+
+.column4{
+    width:40%;
+    padding:6px;
+    background-color: #fff;
+}
+
+/* 共通タグ */
+h1{
+    padding: 0.2em;
+    color: #494949;
+    background-color: #f8f8ff;
+    border-left: solid 5px #168;
+    margin: 2px;
+    clear: both;
+    font-size: medium;
+}
+
+p{
+    margin: 0.4em;
+}
+
+form{
+    display: inline;
+}
+
+table{
+width:96%;
+    border-collapse: collapse;
+    margin:10px auto;
+    border:solid #2255bb 2px;        
+}
+
+th{
+    border:solid #2255bb 1px;
+    background-color:#f5f5f5;
+    color:#002255;
+}
+
+td{
+    border:solid #3366cc 1px;  
+    padding:3px;      
+}
+
+.date{
+    font-size: 20px;
+}
+.small{
+    font-size: smaller;
+}
+
+.bold{
+    font-weight: bold;
+}
+.right{
+    text-align: right;
+}
+
+/* ヘッダー */
+.header{
+    width:100%;  
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.header_left{
+float: left;
+    padding: 3px;        
+}
+
+.header_right{
+text-align: right;
+    padding: 3px;        
+}
+
+/* 左から１列目 */
+.column1{
+    width:210px; 
+    background-color: #fff;
+}
+
+.column1 nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;   
+    column-count: 2;
+}
+.column1 nav ul li{
+    width:100px;
+    list-style: none;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    line-height: 26px;
+}
+.column1 nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color:#333;
+}
+
+.current {
+    background-color: #00008b;        
+    color: #fff;
+}
+
+.current a{
+    color: #fff !important;
+}
+
+.column1 nav ul li a:hover{
+    color: #009;
+}
+
+.column1 nav ul li:hover{
+    background-color: #eee;        
+}
+
+/* 左から２列目 */
+.column2{
+    width:30%;
+    padding:6px;          
+    background-color: #fff;
+}
+
+.lesson_input{
+    width: 95%;
+    font-size: 150%; 
+}
+
+.remark_input{
+    width: 95%; 
+}
+
+.lesson1{
+    background-color:#f5f5ff;
+}
+
+.lesson2{
+    padding-left: 1em;
+}
+
+.lesson_content_input{
+    width: 80%;
+    float: left;
+}
+
+.private_note_input{
+    width: 80%;
+    float: left;
+}
+
+.private_note{
+    color: blue;
+    clear:both;
+    padding-top: 10px;
+}
+
+/* 左から３列目 */
+.special_note{
+    color: red;
+}
+.special_note_input{
+    width: 85%;
+    font-size: 150%; 
+    margin-bottom: 20px;
+    float: left;
+}
+.atitude_input{
+    width: 85%;
+    font-size: 150%;         
+    margin-bottom: 20px;
+    float: left;
+}
+.lesson_plan_input{
+    width: 85%;
+    font-size: 150%;         
+    margin-bottom: 20px;
+    float: left;
+}
+.deadline_input{
+    width : 20px;
+}
+.processing_input{
+    width: 80%;
+    float: left;
+}
+
+
+/* 左から４列目 */
+.tuition1{
+    background-color:#f5f5ff;
+}
+
+.tuition2{
+    padding-left: 1em;
+}
+
+.legular_tuition_money_text{
+    width:60px;
+    font-size: 120%;
+}
+
+.legular_tuition_method_text{
+    width:40px;
+}
+
+.tuition_detail_text_1{
+    width:40%;
+    font-size: 110%;
+}
+
+.tuition_deadline_text_1{
+    width:30%;        
+    font-size: 110%;
+}
+
+.tuition_remark_text_1{
+    width:40%;
+    font-size: 110%;
+}
+
+.tuition_money_text_1{
+    width:60px;
+    font-size: 110%;
+}
+
+.tuition_detail_text_2{
+    width:30%;
+    font-size: 110%;
+}
+
+.tuition_remark_text_2{
+    width:30%;
+    font-size: 110%;
+}
+
+.tuition_money_text_2{
+    width:60px;
+    font-size: 110%;
+}
+
+/* 左から４列目 
+
+.list{
+    width:1100px; 
+    background-color: #fff;
+    margin:3px;
+    min-height: 800px;
+}
+.top{
+    width:100%;
+    display:flex;
+    border-bottom: 1px solid #ddd;
+}
+.mail_form{
+    width:400px;
+    padding:10px;
+}
+.fixed_phrase{
+    width:600px;
+    padding:10px;
+    border-left: 1px solid #ddd;
+
+}
+.subject{
+    width: 200px;
+    font-size: 120%; 
+}
+.message{
+    width: 350px;
+    font-size: 120%; 
+}
+
+.mailing_list{
+    width:1000px; 
+    margin:20px auto;
+    text-align: center;
+}
+
+.confirm{
+    width:600px; 
+    margin:20px auto;
+}
+*/
